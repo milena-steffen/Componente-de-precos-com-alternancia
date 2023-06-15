@@ -1,2 +1,6 @@
 @charset "UTF-8";
 
+header .cabecalho__header{
+    background-image: url(bg-top.svg);
+    background-repeat: repeat;
+}
