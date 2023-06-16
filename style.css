@@ -1,6 +1,40 @@
 @charset "UTF-8";
+body{
+    background-color: #F2F2F2;
+}
 
 header .cabecalho__header{
     background-image: url(bg-top.svg);
-    background-repeat: repeat;
+    background-repeat: no-repeat;
+    width: 100vh;
+    height: 100vh;
+    z-index: 2;
+
+}
+
+.titulo-principal{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    padding: 64px 92px 40px 91px;
+}
+
+.escolha-do-plano{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 0 68px;
+    gap: 90px;
+    padding: 0 auto;
+    
+}
+
+.planos{
+    z-index: 1;
+    
+}
+
+.plano-basico{
+    
 }
