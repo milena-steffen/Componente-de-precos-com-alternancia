@@ -4,9 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Componente do gráfico de despesas</title>
+    <link rel="stylesheet" href="">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
+
     <header>
         <div class="cabecalho__header">
             <h1 class="titulo-principal">Our Pricing</h1>
@@ -19,17 +24,30 @@
   
 <main>
     <div class="planos">
-        <div class="plano-basico">
-            Basic
-            &dollar;19.99
-            &dollar;199.99
+        <div class="plano-basico-mensal">
+            <div class="plano-basico-mensal-dados">
+                <h2 class="titulo-secundario">Basic</h2>
+                <p class="plano-basico-mensal-preco">$ 19.99</p>
+                <p class="beneficios-dos-planos">500 GB Storage</p>
+                <p class="beneficios-dos-planos">2 Users Allowed</p>
+                <p class="beneficios-dos-planos">Send up to 3 GB</p>
+                <p class="saiba-mais">Learn More</p>
+            </div>
+        </div>
+
+        <div class="plano-basico-anual">
+            <h2 class="titulo-secundario">Master</h2>
+            <p class="plano-basico-mensal-preco">$ 199.99</p>
+            
             500 GB Storage
             2 Users Allowed
             Send up to 3 GB
             Learn More
         </div>
+
+
         <div class="plano-profissional">
-            Professional
+            <h2 class="titulo-secundario">Professional</h2>
             &dollar;24.99
             &dollar;249.99
             1 TB Storage
@@ -38,7 +56,7 @@
             Learn More
         </div>
         <div class="plano-profissional">
-            Master
+            <h2 class="titulo-secundario">Master</h2>
             &dollar;39.99
             &dollar;399.99
             2 TB Storage
