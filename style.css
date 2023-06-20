@@ -40,7 +40,7 @@ header .cabecalho__header{
     
 }
 
-.plano-basico-mensal{
+.plano-basico-mensal, .plano-basico-anual, .plano-mensal-master, .plano-anual-master{
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -50,13 +50,15 @@ header .cabecalho__header{
     border-radius: 10px;
     width: 320px;
     height: 453px;
+    margin: 32px 32px;
 }
 
-.plano-basico-mensal-dados{
+.plano-basico-mensal-dados, .plano-basico-anual-dados{
     padding: 15px 29px;
+   
 }
 
-.titulo-secundario{
+.titulo-secundario-basico-mensal, .titulo-secundario-basico-anual, .titulo-secundario-master-mensal, .titulo-secundario-master-anual{
     color: #6E728E;
     font-style: normal;
     font-weight: 700;
@@ -65,17 +67,17 @@ header .cabecalho__header{
     text-align: center;
 }
 
-.plano-basico-mensal-preco{
+.plano-basico-mensal-preco, .plano-basico-anual-preco, .plano-master-anual-preco, .plano-master-mensal-preco{
     font-style: normal;
     font-weight: 700;
-    font-size: 72px;
-    line-height: 36px;
+    font-size: 62px;
+    line-height: 35px;
     letter-spacing: -2.16px;
     color: #4A4D60;
     text-align: center;
 }
 
-.beneficios-dos-planos{
+.beneficios-do-plano-basico-mensal, .beneficios-dos-plano-basico-anual, .beneficios-dos-plano-master-mensal, .beneficios-dos-plano-master-anual{
     font-style: normal;
     font-weight: 700;
     font-size: 15px;
@@ -84,7 +86,7 @@ header .cabecalho__header{
     color: #6E728E;
 }
 
-.saiba-mais{
+.saiba-mais-plano-basico-mensal, .saiba-mais-basico-anual, .saiba-mais-master-mensal, .saiba-mais-master-anual {
     width: 259px;
     height: 20px;
     font-style: normal;
@@ -103,7 +105,7 @@ header .cabecalho__header{
 }
 
 
-.plano-basico-anual{
+.plano-profissional-mensal, .plano-profissional-anual{
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -113,17 +115,12 @@ header .cabecalho__header{
     border-radius: 10px;
     width: 320px;
     height: 453px;
+    margin: 32px 32px;
 }
 
-.plano-basico-anual{
-    color: #FFFFFF;
-}
 
-.plano-basico-anual-dados{
-    padding: 15px 29px;
-}
-
-.titulo-secundario-anual{
+.titulo-secundario-profissional-mensal, .titulo-secundario-profissional-anual {
+    color: white;
     font-style: normal;
     font-weight: 700;
     font-size: 1.2em;
@@ -131,17 +128,18 @@ header .cabecalho__header{
     text-align: center;
 }
 
-.plano-basico-anual-preco{
-    color: #FFFFFF;
+.plano-basico-profissional-mensal-preco, .plano-profissional-anual-preco{
     font-style: normal;
     font-weight: 700;
     font-size: 62px;
-    line-height: 25px;
+    line-height: 35px;
     letter-spacing: -2.16px;
+    color: white;
     text-align: center;
 }
 
-.beneficios-dos-plano-anual{
+
+.beneficios-dos-plano-profissional-mensal, .beneficios-dos-plano-profissional-anual{
     color: white;
     font-style: normal;
     font-weight: 700;
@@ -150,9 +148,9 @@ header .cabecalho__header{
     text-align: center;
 }
 
-.saiba-mais-anual{
+.saiba-mais-profissional-mensal, .saiba-mais-profissional-mensal{
     width: 259px;
-    height:20px;
+    height: 20px;
     font-style: normal;
     font-weight: 700;
     font-size: 13px;
@@ -160,20 +158,9 @@ header .cabecalho__header{
     text-transform: uppercase;
     padding: 14px 0;
     margin: 0 auto;
-    background: #FFFFFF;
+    background: white;
     border-radius: 6px;
     text-align: center;
     letter-spacing: 1.39286px;
-    color: #6E728E;
-
-}
-
-.plano-profissional{
-    background-color: white;
-    width: 327px;
-    height: 453px;
-}
-
-.plano-profissional{
-    background-color: white;
+    color: #6D72DE;
 }
