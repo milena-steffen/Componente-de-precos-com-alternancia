@@ -117,7 +117,7 @@ input:checked + label::after{
    
 }
 
-.titulo-secundario-basico-mensal, .titulo-secundario-basico-anual, .titulo-secundario-master-mensal, .titulo-secundario-master-anual{
+.titulo-secundario-basico-mensal, .titulo-secundario-basico-anual{
     color: #6E728E;
     font-style: normal;
     font-weight: 700;
@@ -126,16 +126,34 @@ input:checked + label::after{
     text-align: center;
 }
 
-.plano-basico-mensal-preco, .plano-basico-anual-preco, .plano-master-anual-preco, .plano-master-mensal-preco{
+.titulo-secundario-master-mensal, .titulo-secundario-master-anual{
+    color: #6E728E;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2em;
+    line-height: 56px;
+    text-align: center;
+}
+.plano-basico-mensal-preco, .plano-basico-anual-preco {
     font-style: normal;
     font-weight: 700;
     font-size: 62px;
-    line-height: 35px;
+    line-height: 56px;
     letter-spacing: -2.16px;
     color: #4A4D60;
     text-align: center;
 }
 
+
+.plano-master-anual-preco, .plano-master-mensal-preco{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 40px;
+    letter-spacing: -2.16px;
+    color: #4A4D60;
+    text-align: center;
+}
 .beneficios-do-plano-basico-mensal, .beneficios-dos-plano-basico-anual, .beneficios-dos-plano-master-mensal, .beneficios-dos-plano-master-anual{
     font-style: normal;
     font-weight: 700;
@@ -183,7 +201,7 @@ input:checked + label::after{
     font-style: normal;
     font-weight: 700;
     font-size: 1.2em;
-    line-height: 36px;
+    line-height: 56px;
     text-align: center;
 }
 
@@ -191,7 +209,7 @@ input:checked + label::after{
     font-style: normal;
     font-weight: 700;
     font-size: 62px;
-    line-height: 35px;
+    line-height: 36px;
     letter-spacing: -2.16px;
     color: white;
     text-align: center;
@@ -222,4 +240,20 @@ input:checked + label::after{
     text-align: center;
     letter-spacing: 1.39286px;
     color: #6D72DE;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .titulo-principal{
+        justify-content: center;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .planos{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0 auto;
+
+    }
 }
